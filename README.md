@@ -9,10 +9,16 @@
 将红外编码复制到 `ir.c` 文件中
 
 ## 编译固件
+编译之前，需要修改 `config.h` 中的 wifi 配置
+```c
+#define WIFI_SSID "ssid name"
+#define WIFI_PASS "password"
+```
+编译
 ```
 make -C devices/esp-homekit-ac-remote all
 ```
-刷写 `firmware` 目录下的 `cooler.bin` 固件
+刷写 `firmware` 目录下生成的的 `cooler.bin` 固件
 # 引脚接线
 红外接收：GPIO12(D6)<br>
 红外发射：GPIO14(D5)<br>
