@@ -18,7 +18,7 @@ make -C devices/esp-homekit-ac-remote all
 红外发射：GPIO14(D5)<br>
 DHT11温湿度传感器：GPIO4(D2)<br>
 
-![circuit](https://github.com/LeeLulin/esp-homekit-direct/circuit.jpg)
+![circuit](pic/circuit.jpg)
 
 # 感谢
 [esp-ir](https://github.com/maximkulkin/esp-ir)<br>
